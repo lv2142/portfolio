@@ -1,4 +1,12 @@
-  window.Webflow ||= [];
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+<!-- ScrollSmoother requires ScrollTrigger -->
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollSmoother.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js"></script> 
+ 
+ 
+ window.Webflow ||= [];
   window.Webflow.push(function () {
     gsap.registerPlugin(ScrollTrigger, ScrollSmoother, SplitText);
     
